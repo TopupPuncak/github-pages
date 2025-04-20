@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Top Up Game</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #eee;
+      line-height: 1.6;
+    }
+	
+    header {
+      background: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #00bfff;
+    }
+	  
+	  
+	 .brand {
+	display: flex;
+	align-items: center;
+	}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-right: 10px;
+  
+}
+
+.brand-name {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+}
+	  
+    .header h1 {
+      color: #00bfff;
+      margin: 0;
+      font-size: 30px;
+    }
+	
+    .promo-banner {
+      background: #00bfff;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      animation: slide-left 20s linear infinite;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    @keyframes slide-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #ccc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00bfff;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      color: #00bfff;
+      font-size: 32px;
+    }
+    .hero p {
+      color: #aaa;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: #00bfff;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 10px;
+    }
+    .product-card {
+      background: #1f1f1f;
+      width: 250px;
+      margin: 15px;
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,191,255,0.2);
+    }
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      color: #00bfff;
+      margin: 10px 0 5px;
+    }
+    .product-card p {
+      color: #aaa;
+      margin: 0 0 10px;
+      font-size: 14px;
+    }
+    .product-card a {
+      display: inline-block;
+      margin: 10px;
+      padding: 8px 20px;
+      background: #00bfff;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    form {
+      background: #ADD8E6;
+      padding: 30px;
+      max-width: 500px;
+      margin: 40px auto;
+      border-radius: 10px;
+    }
+    form h2 {
+      color: #000000;
+      margin-bottom: 20px;
+    }
+    form input, form select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: none;
+    }
+    form button {
+      background: #00FF00;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .footer {
+      background: #0d0d0d;
+      padding: 40px 20px;
+      text-align: center;
+      margin-top: 60px;
+      border-top: 1px solid #333;
+    }
+    .footer-content h3 {
+      color: #00bfff;
+      margin-bottom: 10px;
+    }
+	
+	.footer-content a{
+	color:#00bfff;
+	text-decoration: none;
+	
+	}
+
+    .footer-content p {
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+    .footer .sosmed a {
+      color: #00bfff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .footer .sosmed a:hover {
+      text-decoration: underline;
+    }
+    .footer .copyright {
+      color: #666;
+      font-size: 13px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+<div class="brand">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkcqj4q-3HEb9j1hft6jOaLW16fRoAs3xKcQ&s" alt="Logo" class="logo" />
+    <h1 class="brand-name">TOP UP GAME TERLENGKAP</h1>
+  </div>
+</header>
+
+<div class="promo-banner">
+ Promo Hari Ini! Top-up ML, FF, PUBG, dan game lainnya
+</div>
+
+<nav>
+  <a href="#">Beranda</a>
+  <a href="#topup">Top-Up</a>
+  <a href="#order">Pesan Sekarang</a>
+  <a href="#kontak">Kontak</a>
+</nav>
+
+<section class="hero">
+  <h2>Top-Up Game Termurah!</h2>
+  <p>Mobile Legends, Free Fire, PUBG, dan lainnya. Mulai Rp3.000 saja!</p>
+  <a href="https://puncakgame.store/" target="_blank" class="cta-button">Top-Up Sekarang</a>
+</section>
+
+<section class="products" id="topup">
+  <div class="product-card">
+    <img src="https://cdnpro.eraspace.com/media/mageplaza/blog/post/r/y/ryqjsfoaquwb736eyc0fjq.jpeg" alt="ML">
+    <h3>Mobile Legends</h3>
+    <p>Diamond mulai 3.000</p>
+    <a href="https://puncakgame.store/">Order</a>
+  </div>
+  <div class="product-card">
+    <img src="https://i.cdn.newsbytesapp.com/images/l66220240618111943.jpeg" alt="FF">
+    <h3>Free Fire</h3>
+    <p>Uc mulai 5.000</p>
+    <a href="https://puncakgame.store/">Order</a>
+  </div>
+  <div class="product-card">
+    <img src="https://images.gizbot.com/webp/img/2020/11/pubg-mobile-return-delayed-over-security-privacy-concerns-report-1605338772.jpg" alt="PUBG">
+    <h3>PUBG Mobile</h3>
+    <p>UC mulai 10.000</p>
+    <a href="https://puncakgame.store/">Order</a>
+  </div>
+  <div class="product-card">
+    <img src="https://gaming-cdn.com/images/products/9456/616x353/league-of-legends-pc-game-cover.jpg?v=1662363312" alt="LOL">
+   <h3>League of Legends</h3>
+    <p>Core mulai 10.000</p>
+    <a href="https://puncakgame.store/">Order</a>
+  </div>
+</section>
+
+<section id="order">
+  <form onsubmit="sendWA(); return false;">
+    <h2>Form Pemesanan</h2>
+    <input type="text" id="nama" placeholder="Nama Kamu" required />
+    <input type="text" id="idgame" placeholder="ID Game / UID" required />
+    <select id="game">
+      <option value="Mobile Legends">Mobile Legends</option>
+      <option value="Free Fire">Free Fire</option>
+      <option value="PUBG Mobile">PUBG Mobile</option>
+	  <option value="League of Legends">League of Legendse</option>
+    </select>
+    <input type="text" id="paket" placeholder="Contoh: 86 Diamond" required />
+    <button type="submit">Kirim via WhatsApp</button>
+  </form>
+</section>
+
+<section id="kontak">
+<footer class="footer">
+    <div class="footer-content">
+      <h3>PUNCAK GAME</h3>
+     <a href="https://puncakgame.store/">Top-up game</a> terpercaya dan tercepat. Layanan 24 Jam Nonstop!</p>
+      <div class="sosmed">
+        <a href="https://wa.me/6287775880638" target="_blank">WhatsApp</a> |
+        <a href="https://instagram.com/akun_igmu" target="_blank">Instagram</a>
+      </div>
+      <p class="copyright">© 2025 Puncak Game. All Rights Reserved.</p>
+    </div>
+  </footer>
+  </section>
+<script>
+  function sendWA() {
+    var nama = document.getElementById("nama").value;
+    var idgame = document.getElementById("idgame").value;
+    var game = document.getElementById("game").value;
+    var paket = document.getElementById("paket").value;
+
+    var pesan = `Halo admin, saya ingin top-up game:
+
+Nama: ${nama}
+Game: ${game}
+ID: ${idgame}
+Paket: ${paket}`;
+    var waUrl = "https://wa.me/6287775880638?text=" + encodeURIComponent(pesan);
+    window.open(waUrl, "_blank");
+  }
+</script>
+
+</body>
+</html>
